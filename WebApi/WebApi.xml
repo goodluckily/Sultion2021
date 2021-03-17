@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:WebApi.ApiGroup.ApiGroupAttribute">
+            <summary>
+            系统分组特性
+            </summary>
+        </member>
+        <member name="T:WebApi.ApiGroup.ApiGroupNames">
+            <summary>
+            系统分组枚举值
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.LoginController.Login">
+            <summary>
+            登陆获取JWT字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.LoginController.JwtDecryptForUser(System.String)">
+            <summary>
+            解密JWT 获取用户信息 注意带上 截取前面的Bearer和空格
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.WeatherForecastController.GetLoginAndIT">
+            <summary>
+            多分组共用请求
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.WeatherForecastController.getMiniprofilerScript">
+            <summary>
+            获取Miniprofiler Index的 Script (尚未分组的)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.WeatherForecastController.getMapsterTest">
+            <summary>
+            Mapster测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Helpers.JwtHelper.JwtEncrypt(WebApi.Helpers.TokenModelJwt)">
+            <summary>
+            Jwt加密
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Helpers.JwtHelper.JwtDecrypt(System.String)">
+            <summary>
+            Jwt解密
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApi.Helpers.TokenModelJwt">
+            <summary>
+            令牌包含的信息
+            </summary>
+        </member>
+    </members>
+</doc>
